@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="Assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/Assets/images/TALK_TIME_LOGO_2.png" height="90%" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Play</li>
+            <li>Coins</li>
+            <li>Wallet</li>
+        </ul>
+
+    </header>
+
+    <main>
+        <p><marquee>Welcome to TalkTime Games</marquee></p><br/><br/>
+        <button class="open-button" onclick="openForm()">Subscribe Now</button>
+
+        <!-- the form -->
+
+        <div class="form-popup" id="myForm">
+            <form action="/subscriberpage.php" class="form-container">
+                <h1>Fill in the form</h1>
+                <label>Phone No</label>
+                <input type="number" placeholder="+254" name="Phone" required>
+
+                <input type="checkbox"  required>
+
+            </form>
+
+
+        </div>
+
+        
+        
+    </main>
+
+   <script src="/Assets/main.js"></script>
+</body>
+
+
+</html>
